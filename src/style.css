@@ -24,6 +24,7 @@ body {
   text-align: center;
   color: black;
 }
+
 .number p {
   color: black;
 }
@@ -46,6 +47,21 @@ body {
 .color-red {
   color: red;
 }
+
 .color-black {
   color: black;
+}
+
+.randomizer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.randomizer button {
+  height: 50px;
+  width: 150px;
+  border: 3px solid red;
+  border-radius: 10px;
 }
